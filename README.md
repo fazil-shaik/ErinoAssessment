@@ -84,59 +84,31 @@ npm run dev
 
   ## Challenges Faced and Solutions
 
-1. **MongoDB Integration**
-
-1. Challenge: Initial setup of MongoDB connection and proper error handling
-2. Solution: Implemented robust connection handling with proper error messages and reconnection logic
-
-
-
-2. **Pagination Implementation**
+ **Pagination Implementation**
 
 1. Challenge: Implementing efficient pagination with MongoDB
 2. Solution: Used MongoDB's skip() and limit() methods along with proper indexing for better performance
 
 
-
-3. **Real-time Updates**
+**Real-time Updates**
 
 1. Challenge: Keeping the UI in sync with database changes
 2. Solution: Implemented a refresh mechanism after CRUD operations
 
 
-
-4. **Form Validation**
+ **Form Validation**
 
 1. Challenge: Maintaining consistent validation between frontend and backend
 2. Solution: Used Mongoose schemas for backend validation and Material-UI's built-in validation for frontend
 
 
 
-5. **State Management**
-
-1. Challenge: Managing complex state for editing, sorting, and pagination
-2. Solution: Organized state management using React hooks and created custom hooks for reusable logic
 
 
-
-6. **CORS Issues**
+**CORS Issues**
 
 1. Challenge: Cross-Origin Resource Sharing issues during development
 2. Solution: Properly configured CORS middleware in Express
 
-
-
-7. **Performance Optimization**
-
-1. Challenge: Table performance with animations
-2. Solution: Implemented proper React memo and callback hooks to prevent unnecessary rerenders
-
-
-
-8. **Error Handling**
-
-1. Challenge: Consistent error handling across the application
-2. Solution: Created a centralized error handling system with meaningful error messages
-## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
